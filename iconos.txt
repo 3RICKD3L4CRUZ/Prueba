@@ -1,0 +1,55 @@
+
+DESARROLLO FRONTEND
+
+
+====================================================
+LIBRERIA FONTAWESOME
+
+<script src="https://kit.fontawesome.com/2ee0245f3d.js" crossorigin="anonymous"></script>
+
+
+====================================================
+ICONOS PARA LA MAQUETACION:
+
+
+//icono menu
+<i class="fas fa-bars"></i>
+
+//flecha subir
+<i class="fa-solid fa-chevron-up"></i>
+
+// iconos servicios
+<i class="fa-solid fa-desktop"></i>
+<i class="fa-solid fa-code"></i>
+<i class="fa-sharp fa-solid fa-cubes"></i>
+<i class="fa-regular fa-pen-to-square"></i>
+
+// icono portafolios
+<i class="morado fa-solid fa-magnifying-glass-plus"></i>
+<i class="morado fa-solid fa-link"></i>
+
+// redes sociales
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-instagram"></i>
+
+//icono blog
+<i class="fa-solid fa-calendar-days"></i>
+<i class="fa-solid fa-user"></i>
+<i class="fa-solid fa-chevron-right"></i>
+
+
+
+=====================================================
+TIPOGRAFIA:
+
+<link href="https://fonts.googleapis.com/css?family=Abel|Oswald" rel="stylesheet">@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+=====================================================
+
+
+EXITO EN SU EXAMEN
+
+

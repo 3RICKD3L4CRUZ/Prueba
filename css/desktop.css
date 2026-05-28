@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.ancho {
+max-width: 1200px;
+margin: auto;
+text-align: center;
+}
+body {
+font-family: arial;
+font-size: 16px;
+line-height: 24px;
+}
+:root {
+    --grisoscuro: #23272A;
+    --morado: #5865F2;
+    --grisclaro: #ffffff;
+    --negro: black;
+    --fondo:#EFEDEE;
+}
+header{
+    position: sticky;
+}
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.fotografia1 {
+    width: 250px;
+}
+.cabecera_btn_blanco {
+    padding: 10px 25px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 55px;
+
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.menu ul li {
+    padding: 10px;
+}
+.menu ul li a {
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+.btn_morado {
+    padding: 10px 30px;
+    border-radius: 40px;
+    background-color: var(--morado);
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn_transparent {
+        padding: 10px 30px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 1px solid var(--grisclaro);
+    color: var(--grisclaro);
+    text-decoration: none;
+    display: inline-block;
+}
+.icono_menu {
+    color: var(--morado);
+    font-size: 25px;
+    display: none;
+}
+.cont_login {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.morado{
+    color: var(--morado);
+}
+.barra_morada {
+    background-color: var(--morado);
+    width: 80px;
+    height: 3px;
+    border: none;
+    display: inline-block;
+}
+i{
+    color: var(--morado);
+    width: 25px;
+    height: 25px;
+}
+/* ++++++++++++++++++++++++++++++++++++ */
+.slide{
+    background-image: url(../imagenes/slide1.jpeg);
+    width: 100%;
+    object-fit: cover;
+}
+.cont0{
+    background-color: rgba(88, 101, 242, 0.353);
+    display: flex;
+    flex-direction: column;
+    padding: 100px 30%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #f6f6f6;
+}
+/* +++++++++++++++++++++++++++++++++++ */
+.whoweare {
+    background-color: var(--fondo);
+}
+.cont1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.cont1 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 600px;
+}
+.img0{
+    max-width: 600px;
+    max-width: 600px;
+}
+.img0 figure{
+        width: 600px;
+    height: 600px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img0 figure img{
+    width: 100%;
+    object-fit: cover;
+}
+/* ++++++++++++++++++++++++++++ OUR SERVICE */
+.ourservice{
+    background-color: var(--grisclaro);
+    padding: 40px 0px;
+}
+.subtitulo0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subtitulo0 h2{
+    color: var(--grisoscuro);
+}
+.subtitulo0 a i{
+    color: var(--morado);
+    width: 25px;
+    height: 25px;
+}
+.cont2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.cont2 .sup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.cont2 .inf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cubo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 300px;
+    height: 275px;
+    padding: 15px;
+}
+.cubo a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: #ccc;
+    border-radius: 50%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.cubo a:hover {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: var(--morado);
+    border-radius: 50%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cubo a:hover i{
+    color: white;
+}
+
+/* ++++++++++++++++++++++++++++++ uor portafolio */
+.portafolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    background-color: #ccc;
+}
+.contgrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    max-width: 1200px;
+}
+.item1{
+    grid-column: span 1;
+    grid-row: 1;
+    position: relative;
+    overflow: hidden;
+}
+.item1 figure{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1 figure img{
+    width: 100%;
+    object-fit: cover;
+}
+.item2 {
+    grid-column: span 1;
+    grid-row: 1;
+    position: relative;
+    overflow: hidden;
+}
+.item2 figure{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item2 figure img{
+    width: 100%;
+    object-fit: cover;
+}
+.item3 {
+    grid-column: span 1;
+    grid-row: 1;
+    position: relative;
+    overflow: hidden;
+}
+.item3 figure{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item3 figure img{
+    width: 100%;
+    object-fit: cover;
+}
+.item4 {
+    grid-column: span 1;
+    grid-row: 2;
+    position: relative;
+        overflow: hidden;
+}
+.item4 figure{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item4 figure img{
+    width: 100%;
+    object-fit: cover;
+}
+.item5 {
+    grid-column: span 1;
+    grid-row: 2;
+    position: relative;
+    overflow: hidden;
+}
+.item5 figure{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item5 figure img{
+    width: 100%;
+    object-fit: cover;
+}
+.item6 {
+    grid-column: span 1;
+    grid-row: 2;
+    position: relative;
+    overflow: hidden;
+}
+.item6 figure{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item6 figure img{
+    width: 100%;
+    object-fit: cover;
+}
+.objeto_cubierta{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s linear;
+    position: absolute;
+    opacity: 100%;
+    z-index: 10;
+}
+.contgrid:hover .objeto_cubierta{
+    opacity: 85%;
+}
+
+/* +++++++++++++++++++++++++++++++ */
+.miniheader{
+    background-image: url(../imagenes/parallaxs1.jpeg);
+
+}
+.contP{
+    background-color: #5865f252;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tamano{
+    font-weight: 600;
+}
+
+/* +++++++++    secion 3       +++++++++++++++++++ */
+.ourteam {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.our_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+
+}
+
+.cont_empleado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.cont_empleado figure {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur(2px);
+    transition: all 0.5s;
+}
+
+.cont_empleado figure:hover {
+    filter:blur(0px);
+}
+.cont_empleado figure img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.cont_empleado hr {
+    width: 100%;
+    height: 2px;
+    background-color: #E6E6E6;
+    border: none;
+}
+
+.empleado_descrip {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.empleado_descrip p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.empleado_descrip span {
+    font-weight: 200;
+    font-size: 10px;
+    color: white;
+    font-weight: 200;
+}
+
+.empleado_redes {
+    background-color: #6363632d;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    color: #636363;
+    position: absolute;
+    top: 80%;
+}
+
+
+.empleado_redes i {
+    width: 25px;
+    height: 25px;
+}
+
+/* +++++++++++++++++  seccion 4   +++++++++++++++++++ */
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.blog_noticias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.noticia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+}
+
+.noticia figure {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticia figure img {
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s linear;
+    transform: scale(1);
+}
+
+.noticia figure img:hover {
+    transform: scale(1.5);
+}
+
+.noticia_descrip {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #636363;
+}
+
+.noticia_descrip a {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid #636363;
+    color: var(--morado);
+}
+
+.derecha {
+    text-align: right;
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++ */
